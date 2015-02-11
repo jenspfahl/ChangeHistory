@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.jepfa.changehistory.feature"
+      label="Change History Feature"
+      version="1.0.0.qualifier"
+      provider-name="Jens Pfahl">
+
+   <description url="http://jepfa.de/changehistory">
+      Simple plugin tracks all changed resources of your workspace
+and prints it in a time-sorted matter. 
+Auxiliary the last changed resources (which are located on the
+top of the table) are more red colored
+during the older changed resources (which are located on the
+bottom of the table) are more yellow colored.
+   </description>
+
+   <copyright>
+      (c) Jens Pfahl
+   </copyright>
+
+   <license url="">
+      EPL
+   </license>
+
+   <plugin
+         id="de.jepfa.changehistory"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            class="de.jepfa.changehistory.views.ChangeHistoryView"
+            icon="icons/history_obj.gif"
+            id="de.jepfa.changehistory.views.ChangeHistoryView"
+            name="Change History">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="de.jepfa.changehistory.startup.PluginStartUp">
+      </startup>
+   </extension>
+
+</plugin>
