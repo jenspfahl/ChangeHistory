@@ -201,7 +201,7 @@ public class ChangeHistoryView extends ViewPart {
 				ResourceNotif resourceNotif = (ResourceNotif) element;
 				String name = resourceNotif.getResource().getName();
 				String path = resourceNotif.getResource().getProjectRelativePath().toString();
-				if (path.length() <= name.length()) {
+				if (path.length() - name.length() <= 0) {
 					return "";
 				}
 				return path.substring(0, path.length() - name.length());
